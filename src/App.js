@@ -1,23 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Counter from "./Counter";
+import EventPractice from "./EventPractice";
+import ValidationSample from "./ValidationSample";
+import ScrollBox from "./ScrollBox";
+import Say from "./Say";
+import IterationSample from "./IterationSample";
+import LifeCycleSample from "./LifeCycleSample";
+import { useState } from "react";
+import ErrorBoundary from "./ErrorBoundary";
+import Info from "./Info";
+import Counter_reducer from "./Counter_reducer";
+import Average from "./Average";
+import SassComponent from "./sass/SassComponent";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <SassComponent />
     </div>
   );
 }
